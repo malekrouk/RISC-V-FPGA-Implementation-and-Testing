@@ -44,9 +44,9 @@ The processor is validated with test cases covering each RV32I instruction (excl
 
 ## Current Status
 
-As of now, we have achieved the above objectives and are currently working on the next milestone (MS2) due on **Monday, October 28**. This includes creating a single-cycle datapath block diagram and a Verilog description supporting all RV32I instructions as described above. Additionally, basic test cases covering all supported instructions will be included. At this stage, two separate memories must be used for instructions and data.
+As of now, we have achieved a single-cycle datapath block diagram and Verilog description supporting all of the RV32I instructions as described above. Basic test cases covering all supported instructions have also been included. At this stage, two separate memories must be used for instructions and data. 
 
 ### Future Plans
-We plan to:
-- Add support for compressed instructions to effectively support the full RV32IC instruction set, excluding compressed instructions that do not map to supported instructions according to the requirements above.
-- Implement a 2-bit dynamic branch prediction mechanism (and branch target address prediction) to enhance instruction flow and performance.
+We plan to implement the remaining features mentioned above, including:
+- Adding support for compressed instructions to effectively support the full RV32IC instruction set, excluding compressed instructions that do not map to supported instructions according to the requirements above.
+- Implementing a 2-bit dynamic branch prediction mechanism (and branch target address prediction) to enhance instruction flow and performance.
